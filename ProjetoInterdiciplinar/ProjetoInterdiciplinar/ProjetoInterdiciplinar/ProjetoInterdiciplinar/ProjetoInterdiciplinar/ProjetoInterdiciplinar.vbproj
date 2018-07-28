@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09635937-59A9-4683-8C7E-3CDD33913EBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProjetoInterdiciplinar.My.MyApplication</StartupObject>
+    <RootNamespace>ProjetoInterdiciplinar</RootNamespace>
+    <AssemblyName>ProjetoInterdiciplinar</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ProjetoInterdiciplinar.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ProjetoInterdiciplinar.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CadastroConta.Designer.vb">
+      <DependentUpon>CadastroConta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroConta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastrodebens.Designer.vb">
+      <DependentUpon>Cadastrodebens.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastrodebens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrodePlanodeContas.Designer.vb">
+      <DependentUpon>CadastrodePlanodeContas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrodePlanodeContas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroEmpresarial.Designer.vb">
+      <DependentUpon>CadastroEmpresarial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroEmpresarial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroEmpresas.Designer.vb">
+      <DependentUpon>CadastroEmpresas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroEmpresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroFuncionarios.Designer.vb">
+      <DependentUpon>CadastroFuncionarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroFuncionarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CriaçãoPlanoContas.Designer.vb">
+      <DependentUpon>CriaçãoPlanoContas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CriaçãoPlanoContas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="NovoBen.Designer.vb">
+      <DependentUpon>NovoBen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NovoBen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanodeContas.Designer.vb">
+      <DependentUpon>PlanodeContas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PlanodeContas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EsqueciSenha.Designer.vb">
+      <DependentUpon>EsqueciSenha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EsqueciSenha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.vb">
+      <DependentUpon>MenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VincularEmpresa.Designer.vb">
+      <DependentUpon>VincularEmpresa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VincularEmpresa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CadastroConta.resx">
+      <DependentUpon>CadastroConta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastrodebens.resx">
+      <DependentUpon>Cadastrodebens.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrodePlanodeContas.resx">
+      <DependentUpon>CadastrodePlanodeContas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroEmpresarial.resx">
+      <DependentUpon>CadastroEmpresarial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroEmpresas.resx">
+      <DependentUpon>CadastroEmpresas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroFuncionarios.resx">
+      <DependentUpon>CadastroFuncionarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CriaçãoPlanoContas.resx">
+      <DependentUpon>CriaçãoPlanoContas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovoBen.resx">
+      <DependentUpon>NovoBen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlanodeContas.resx">
+      <DependentUpon>PlanodeContas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EsqueciSenha.resx">
+      <DependentUpon>EsqueciSenha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VincularEmpresa.resx">
+      <DependentUpon>VincularEmpresa.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-propriedade-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-propriedade-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-nova-empresa-480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-senha-480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-senha-480%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-esqueci-a-senha-480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-grupo-de-usuário-homem-mulher-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-empresa-cliente-filled-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-gráfico-de-rosca-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-produto-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-plano-de-construção-64%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-manuseie-com-cuidado-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-mais-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-adicionar-usuário-masculino-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-selecionado-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-adicionar-a-lista-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-adicionar-a-lista-96%282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-fechar-janela-filled-50%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-excluir-26%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-excluir-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-excluir-60%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-caixa-de-seleção-marcada-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-nova-empresa-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-pesquisar-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-comprar-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+    <COMReference Include="ADOR">
+      <Guid>{00000300-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access">
+      <Guid>{4AFFC9A0-5F99-101B-AF4E-00AA003F0F07}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-alianças-de-casamento-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\icons8-adicionar-64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

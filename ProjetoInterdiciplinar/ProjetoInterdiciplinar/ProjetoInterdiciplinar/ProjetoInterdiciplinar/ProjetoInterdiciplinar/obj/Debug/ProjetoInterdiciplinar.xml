@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProjetoInterdiciplinar
+</name>
+</assembly>
+<members>
+<member name="T:ProjetoInterdiciplinar.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_adicionar_64">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_adicionar_a_lista_96">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_adicionar_a_lista_96_2_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_adicionar_usuário_masculino_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_alianças_de_casamento_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_caixa_de_seleção_marcada_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_comprar_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_empresa_cliente_filled_50">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_esqueci_a_senha_480">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_excluir_26_1_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_excluir_60">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_excluir_60_1_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_excluir_60_1_1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_fechar_janela_filled_50_1_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_gráfico_de_rosca_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_grupo_de_usuário_homem_mulher_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_mais_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_manuseie_com_cuidado_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_nova_empresa_480">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_nova_empresa_4801">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_nova_empresa_96">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_pesquisar_64">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_plano_de_construção_64_1_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_produto_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_propriedade_60">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_propriedade_90">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_selecionado_48">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_senha_480">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjetoInterdiciplinar.My.Resources.Resources.icons8_senha_480_1_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
